@@ -1,0 +1,588 @@
+body {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+input {
+  display: none;
+}
+
+#hide:checked ~ .header-div > .block {
+  visibility: hidden;
+}
+
+#show:checked ~ .header-div > .block {
+  visibility: visible;
+}
+
+.header-div {
+  width: 100%;
+  height: 621px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  animation: header-img 5s ease-in-out infinite;
+}
+
+@keyframes header-img {
+  0% {
+    background: url(https://wallpapershome.com/images/pages/ico_h/16848.jpg) no-repeat;
+    transition: 1s ease-in-out;
+    background-size: cover;
+  }
+
+  25% {
+    background: url(https://i1.wp.com/runedivination.com/wp-content/uploads/2020/09/screen-0.jpg?fit=1920%2C1080&ssl=1) no-repeat;
+    transition: 1s ease-in-out;
+    background-size: cover;
+  }
+
+  50% {
+    background: url(https://hdwallpaperim.com/wp-content/uploads/2017/08/22/412978-space-planet-universe-748x421.jpg) no-repeat;
+    transition: 1s ease-in-out;
+    background-size: cover;
+  }
+
+  75% {
+    background: url(https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/2958735/original/landscape-Moon-13/give-you-3574-landscape-hd-wallpaper-1920x1080-dimension-best-of-the-best.jpg) no-repeat;
+    transition: 1s ease-in-out;
+    background-size: cover;
+  }
+
+  100% {
+    background: url(https://data.1freewallpapers.com/download/space-galaxy-4k-2880x1620.jpg) no-repeat;
+    transition: 1s ease-in-out;
+    background-size: cover;
+  }
+}
+
+.block {
+  border-radius: 20px;
+  position: relative;
+  width: 70%;
+  height: 450px;
+  border: 2px solid blue;
+  margin-right: 220px;
+  margin-top: 59px;
+  overflow: hidden;
+}
+
+.block-img {
+  width: 500%;
+  height: 100%;
+  display: flex;
+}
+
+.block-img div {
+  width: 100%;
+  height: 100%;
+}
+
+.block-img div:nth-of-type(1) {
+  background: url(https://wallpapershome.com/images/pages/ico_h/16848.jpg) no-repeat;
+  background-size: cover;
+  animation: div-1 5s ease-in-out infinite;
+}
+
+.block-img div:nth-of-type(2) {
+  background: url(https://i1.wp.com/runedivination.com/wp-content/uploads/2020/09/screen-0.jpg?fit=1920%2C1080&ssl=1) no-repeat;
+  background-size: cover;
+  animation: div-2 5s ease-in-out infinite;
+}
+
+.block-img div:nth-of-type(3) {
+  background: url(https://hdwallpaperim.com/wp-content/uploads/2017/08/22/412978-space-planet-universe-748x421.jpg) no-repeat;
+  background-size: cover;
+  animation: div-3 5s ease-in-out infinite;
+}
+
+.block-img div:nth-of-type(4) {
+  background: url(https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/2958735/original/landscape-Moon-13/give-you-3574-landscape-hd-wallpaper-1920x1080-dimension-best-of-the-best.jpg) no-repeat;
+  background-size: cover;
+  animation: div-4 5s ease-in-out infinite;
+}
+
+.block-img div:nth-of-type(5) {
+  background: url(https://data.1freewallpapers.com/download/space-galaxy-4k-2880x1620.jpg) no-repeat;
+  background-size: cover;
+  animation: div-5 5s ease-in-out infinite;
+}
+
+
+@keyframes div-1 {
+  0% {
+    transform: translateX(0);
+    transition: 1s ease-in-out;
+  }
+  
+  25% {
+    transform: translateX(-100%);
+    transition: 1s ease-in-out;
+  }
+  50% {
+    transform: translateX(-200%);
+    transition: 1s ease-in-out;
+  }
+  75% {
+    transform: translateX(-300%);
+    transition: 1s ease-in-out;
+  }
+  100% {
+    transform: translateX(-400%);
+    transition: 1s ease-in-out;
+  }
+
+}
+
+
+@keyframes div-2 {
+  0% {
+    transform: translateX(0);
+    transition: 1s ease-in-out;
+  }
+  
+  25% {
+    transform: translateX(-100%);
+    transition: 1s ease-in-out;
+  }
+  50% {
+    transform: translateX(-200%);
+    transition: 1s ease-in-out;
+  }
+  75% {
+    transform: translateX(-300%);
+    transition: 1s ease-in-out;
+  }
+  100% {
+    transform: translateX(-400%);
+    transition: 1s ease-in-out;
+  }
+
+}
+
+@keyframes div-3 {
+  0% {
+    transform: translateX(0);
+    transition: 1s ease-in-out;
+  }
+  
+  25% {
+    transform: translateX(-100%);
+    transition: 1s ease-in-out;
+  }
+  50% {
+    transform: translateX(-200%);
+    transition: 1s ease-in-out;
+  }
+  75% {
+    transform: translateX(-300%);
+    transition: 1s ease-in-out;
+  }
+  100% {
+    transform: translateX(-400%);
+    transition: 1s ease-in-out;
+  }
+
+}
+
+@keyframes div-4 {
+  0% {
+    transform: translateX(0);
+    transition: 1s ease-in-out;
+  }
+  
+  25% {
+    transform: translateX(-100%);
+    transition: 1s ease-in-out;
+  }
+  50% {
+    transform: translateX(-200%);
+    transition: 1s ease-in-out;
+  }
+  75% {
+    transform: translateX(-300%);
+    transition: 1s ease-in-out;
+  }
+  100% {
+    transform: translateX(-400%);
+    transition: 1s ease-in-out;
+  }
+
+}
+
+@keyframes div-5 {
+  0% {
+    transform: translateX(0);
+    transition: 1s ease-in-out;
+  }
+  
+  25% {
+    transform: translateX(-100%);
+    transition: 1s ease-in-out;
+  }
+  50% {
+    transform: translateX(-200%);
+    transition: 1s ease-in-out;
+  }
+  75% {
+    transform: translateX(-300%);
+    transition: 1s ease-in-out;
+  }
+  100% {
+    transform: translateX(-400%);
+    transition: 1s ease-in-out;
+  }
+
+}
+
+.label-div {
+  position: absolute;
+  left: 27%;
+  bottom: 1%;
+  display: flex;
+  width: 480px;
+  height: 90px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.label-div label {
+  width: 80px;
+  height: 70px;
+  border-radius: 7px;
+  cursor: pointer;
+  box-shadow: 3px 5px 25px rgb(2, 250, 250);
+}
+
+.label-div label:hover {
+  box-shadow: 3px 5px 25px rgb(0, 17, 255); 
+  transform: scale(1.1);
+}
+
+#w1:checked ~ .header-div > .block > .label-div > label:nth-of-type(1) {
+  box-shadow: 3px 5px 25px rgb(0, 17, 255); 
+  transform: scale(1.1);
+  border: 1px solid rgb(3, 15, 196);
+}
+
+#w2:checked ~ .header-div > .block > .label-div > label:nth-of-type(2) {
+  box-shadow: 3px 5px 25px rgb(0, 17, 255); 
+  transform: scale(1.1);
+  border: 1px solid rgb(3, 15, 196);
+}
+
+#w3:checked ~ .header-div > .block > .label-div > label:nth-of-type(3) {
+  box-shadow: 3px 5px 25px rgb(0, 17, 255); 
+  transform: scale(1.1);
+  border: 1px solid rgb(3, 15, 196);
+}
+
+#w4:checked ~ .header-div > .block > .label-div > label:nth-of-type(4) {
+  box-shadow: 3px 5px 25px rgb(0, 17, 255); 
+  transform: scale(1.1);
+  border: 1px solid rgb(3, 15, 196);
+}
+
+#w5:checked ~ .header-div > .block > .label-div > label:nth-of-type(5) {
+  box-shadow: 3px 5px 25px rgb(0, 17, 255); 
+  transform: scale(1.1);
+  border: 1px solid rgb(3, 15, 196);
+}
+
+.label-div label:nth-of-type(1) {
+  background: url(https://wallpapershome.com/images/pages/ico_h/16848.jpg) no-repeat;
+  background-size: cover;
+}
+
+.label-div label:nth-of-type(2) {
+  background: url(https://i1.wp.com/runedivination.com/wp-content/uploads/2020/09/screen-0.jpg?fit=1920%2C1080&ssl=1) no-repeat;
+  background-size: cover;
+}
+
+.label-div label:nth-of-type(3) {
+  background: url(https://hdwallpaperim.com/wp-content/uploads/2017/08/22/412978-space-planet-universe-748x421.jpg) no-repeat;
+  background-size: cover; 
+}
+
+.label-div label:nth-of-type(4) {
+  background: url(https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/2958735/original/landscape-Moon-13/give-you-3574-landscape-hd-wallpaper-1920x1080-dimension-best-of-the-best.jpg) no-repeat;
+  background-size: cover;
+}
+
+.label-div label:nth-of-type(5) {
+  background: url(https://data.1freewallpapers.com/download/space-galaxy-4k-2880x1620.jpg) no-repeat;
+  background-size: cover;
+}
+
+#w1:checked ~ .header-div > .block > .block-img > div:nth-of-type(1) {
+  transform: translateX(0);
+  transition: 0.3s ease-in-out;
+}
+
+#w2:checked ~ .header-div > .block > .block-img > div:nth-of-type(2) {
+  transform: translateX(-100%);
+  transition: 0.3s ease-in-out;
+  animation: none;
+}
+
+#w3:checked ~ .header-div > .block > .block-img > div:nth-of-type(3) {
+  transform: translateX(-200%);
+  transition: 0.3s ease-in-out;
+  animation: none;
+}
+
+#w4:checked ~ .header-div > .block > .block-img > div:nth-of-type(4) {
+  transform: translateX(-300%);
+  transition: 0.3s ease-in-out;
+  animation: none;
+}
+
+#w5:checked ~ .header-div > .block > .block-img > div:nth-of-type(5) {
+  transform: translateX(-400%);
+  transition: 0.3s ease-in-out;
+  animation: none;
+}
+
+#w1:checked ~ .header-div {
+  background: url(https://wallpapershome.com/images/pages/ico_h/16848.jpg) no-repeat;
+  transition: 0.3s ease-in-out;
+  background-size: cover;
+}
+
+#w2:checked ~ .header-div {
+  background: url(https://i1.wp.com/runedivination.com/wp-content/uploads/2020/09/screen-0.jpg?fit=1920%2C1080&ssl=1) no-repeat;
+  transition: 0.3s ease-in-out;
+  background-size: cover;
+  animation: none;
+}
+
+#w3:checked ~ .header-div {
+  background: url(https://hdwallpaperim.com/wp-content/uploads/2017/08/22/412978-space-planet-universe-748x421.jpg) no-repeat;
+  transition: 0.3s ease-in-out;
+  background-size: cover;
+  animation: none;
+}
+
+#w4:checked ~ .header-div {
+  background: url(https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/2958735/original/landscape-Moon-13/give-you-3574-landscape-hd-wallpaper-1920x1080-dimension-best-of-the-best.jpg) no-repeat;
+  transition: 0.3s ease-in-out;
+  background-size: cover;
+  animation: none;
+}
+
+#w5:checked ~ .header-div {
+  background: url(https://data.1freewallpapers.com/download/space-galaxy-4k-2880x1620.jpg) no-repeat;
+  transition: 0.3s ease-in-out;
+  background-size: cover;
+  animation: none;
+}
+
+.musicName {
+  color: #fff;
+  font-size: 19px;
+  margin: 15px 0;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.play {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 35px;
+  width: 100px;
+  border-radius: 7px;
+  cursor: pointer;
+  background: linear-gradient(to right, rgb(64, 4, 231), rgb(0, 168, 247));
+  border: none;
+}
+
+.play:hover {
+  box-shadow: 3px 5px 25px rgb(255, 255, 255);
+}
+
+.play1, .pause {
+  position: relative;
+  color: #fff;
+  font-weight: 700;
+}
+
+.play1::before {
+  content: 'PLAY';
+  position: absolute;
+  font-size: 20px;
+}
+
+.pause::before {
+  content: 'PAUSE';
+  position: absolute;
+  font-size: 20px;
+}
+
+#w1:checked ~ .header-div > .block > .block-img > div {
+  animation: none;
+}
+
+#w2:checked ~ .header-div > .block > .block-img > div {
+  animation: none;
+}
+
+#w3:checked ~ .header-div > .block > .block-img > div {
+  animation: none;
+}
+
+#w4:checked ~ .header-div > .block > .block-img > div {
+  animation: none;
+}
+
+#w5:checked ~ .header-div > .block > .block-img > div {
+  animation: none;
+}
+
+#w1:checked ~ .header-div {
+  animation: none;
+}
+
+.left-div {
+  position: absolute;
+  top: 2%;
+  right: 1%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translateX(217px);
+  transition: 0.8s linear;
+}
+
+.left-div:hover {
+  transform: translateX(0);
+  transition: 0.8s linear;
+}
+
+.left {
+  cursor: pointer;
+  margin-right: 10px;
+  position: absolute;
+  right: 199px;
+  display: flex;
+  padding: 10px 0;
+}
+
+.left-div:hover > .left {
+  visibility: hidden;
+}
+
+.left i {
+  font-size: 25px;
+}
+
+.left i:nth-of-type(1) {
+  color: rgb(248, 244, 0);
+  animation: i-1 0.5s linear infinite;
+}
+
+.left i:nth-of-type(2) {
+  color: red;
+  animation: i-2 0.5s linear infinite;
+}
+
+.left i:nth-of-type(3) {
+  color: rgb(248, 244, 0);
+  animation: i-3 0.5s linear infinite;
+}
+
+@keyframes i-1 {
+  100% {
+    color: red;
+    transition: 0.5s linear;
+  }
+}
+
+@keyframes i-2 {
+  100% {
+    color: rgb(248, 244, 0);
+    transition: 0.5s linear;
+  }
+}
+
+@keyframes i-3 {
+  100% {
+    color: red;
+    transition: 0.5s linear;
+  }
+}
+
+.show-hide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.show-hide h3 {
+  font-family: 'Roboto', sans-serif;
+  color: aqua;
+  
+}
+
+.labels {
+  display: flex;
+}
+
+.labels label {
+  margin: 5px 10px;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  padding: 7px 19px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.labels label:nth-of-type(1) {
+  background-color: aqua;
+}
+
+.labels label:nth-of-type(1):hover {
+  box-shadow: 0 0 10px aqua;
+}
+
+.labels label:nth-of-type(2) {
+  background-color: rgb(0, 60, 255);
+}
+
+.labels label:nth-of-type(2):hover {
+  box-shadow: 0 0 10px rgb(0, 60, 255);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
