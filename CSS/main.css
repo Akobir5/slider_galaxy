@@ -61,11 +61,10 @@ input {
 .block {
   border-radius: 20px;
   position: relative;
-  width: 70%;
-  height: 450px;
+  width: 80%;
+  height: 65%;
   border: 2px solid blue;
-  margin-right: 220px;
-  margin-top: 59px;
+  margin: 50px;
   overflow: hidden;
 }
 
@@ -558,7 +557,12 @@ input {
   box-shadow: 0 0 10px rgb(0, 60, 255);
 }
 
-
+@media screen and (max-width:900px) {
+  .block {
+    margin: 0;
+    margin-top: 100px !important;
+  }
+}
 
 
 
